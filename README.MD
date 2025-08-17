@@ -49,6 +49,24 @@ analyser.print_similarity_analysis(results)
 - `visualise_embeddings_2d()`: 2D visualisation with dimensionality reduction
 - `calculate_intra_inter_category_similarity()`: Statistical analysis of clustering
 
+## Visualizations
+
+### Similarity and Distance Matrices
+Shows cosine similarity and Euclidean distances between different concepts, with colour-coded labels by category:
+
+<div align="center">
+  <img src="visualisations/similarity-matrix.png" alt="Similarity Matrix" width="49%" />
+  <img src="visualisations/distance-matrix.png" alt="Distance Matrix" width="49%" />
+</div>
+
+### 2D Projection Visualisations
+2D projection of high-dimensional embeddings using t-SNE and Principal Component Analysis:
+
+<div align="center">
+  <img src="visualisations/tsne-visualisation.png" alt="t-SNE Visualization" width="49%" />
+  <img src="visualisations/pca-visualisation.png" alt="PCA Visualization" width="49%" />
+</div>
+
 ## Requirements
 - PyTorch
 - transformers
