@@ -5,6 +5,8 @@ A tool for analysing and visualising text embeddings from image generation diffu
 ## Overview
 This project provides a framework for extracting and analysing text embeddings from image generation models such as Stable Diffusion. It helps understand how different concepts are represented in the embedding space and how semantically similar concepts cluster together.
 
+The experiments included in this project aim to explore various aspects of semantic relationships between concepts, leveraging the capabilities of diffusion models. The results of the included experiments demonstrate the embedding layer of image generation models learn to group words that are conceptually similar in meaning, even if the visual relation does not exist.
+
 ## Features
 - **Text Embedding Extraction**: Extract embeddings from Stable Diffusion's text encoder (CLIP)
 - **Similarity Analysis**: Calculate cosine similarity and Euclidean distances between concepts
